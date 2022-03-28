@@ -1,13 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML&CSS_VIDEO</title>
-    <!-- head tag has several meta tags  -->
-    <link rel="stylesheet" href="">
-    </head>
-    <body>
-    
-    </body>
-</html>
+    <title>The 2021 Frontend Developer Crash Course</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">Remember<span>That</span></a>
+            <!-- first imaage that has a class of mobile menu  where it allows you to open it  -->
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <!-- this is a place where you can click on to exit the menu -->
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <!-- this is a list of naviagtion, containing the home menu, features of products, and pricing  -->
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+
+                <!-- this is a secondary menu for contact information such as social media -->
+                <ul class="secondary-nav">
+                    <li><a href="#">Contact</a></li>
+                    <li class="go-premium-cta"><a href="#">Go Premium</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- this section is for the first header, classifying it as hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">It's Nitty &amp; Gritty</p>
+                <h1>A Task App That Doesn't Stink</h1>
+
+                <!-- link to a picture to where when you click on the picture it sends you to another link -->
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta">Try for free</a>
+                    <a href="#" class="watch-video-cta">
+                        <img src="images/watch.svg" alt="Watch a video">Watch a video
+                    </a>
+                </div>
+            </div>
+
+            <img src="images/illustration.svg" class="hero-img" alt="Illustration">
+        </div>
+    </section>
+
+    <!-- start of a different section called container that has a list of ideas for an app  -->
+    <section class="features-section">
+        <div class="container">
+            <ul class="features-list">
+                <li>Unlimited Tasks</li>
+                <li>SMS Task Reminders</li>
+                <li>Confetti Explosions upon Task Completions</li>
+                <li>Social Media Announcements</li>
+                <li>Real Time Collaboration</li>
+                <li>Other awesome features</li>
+            </ul>
+            <!-- image that has a person holding a phone  -->
+            <img src="images/holding-phone.jpg" alt="Man holding phone">
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <ul comm
