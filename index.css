@@ -1,0 +1,54 @@
+/* this inports a style sheet from another place in this case a preset style sheet */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+    /* set the main body color to this */
+  --primary-color: #007AF3;
+}
+
+body {
+    /* background color of the page  */
+  background: #F2F2F2;
+  margin: 0;
+  /* font for the body  */
+  font-family: 'Poppins';
+}
+
+.navbar {
+    /* background color for the navbar */
+  background: white;
+  /* padding gives spaces between the text and border */
+  padding: 1em;
+}
+
+.navbar .logo {
+    /* text decoration sets the apperance of lines in the text */
+  text-decoration: none;
+  /* font weight is the boldness of the font */
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+
+.navbar .logo span {
+  color: var(--primary-color);
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+    /* webkit box lets me reflect the content in a ceratin direction  */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: #444444;
+}
