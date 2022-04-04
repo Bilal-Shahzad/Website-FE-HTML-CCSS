@@ -103,3 +103,76 @@ ul {
   .left-col .watch-video-cta img {
     margin-right: .5em;
   }
+  /* css to the images  */
+  .hero-img {
+    width: 70%;
+    margin-top: 3em;
+  }
+  
+  section.features-section {
+    background: #20272E;
+    color: white;
+  }
+  
+  ul.features-list {
+    margin: 0;
+    padding-left: .1em;
+    /* displays the text in a gird layout */
+    display: -ms-grid;
+    display: grid;
+/* setting the columns of the grid 1 rem = 16 pixels  */
+    -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  }
+  
+  ul.features-list li {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    position: relative;
+  }
+  
+  ul.features-list li:before {
+    content: '';
+    left: -2em;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    /* background size of the image  */
+    background-size: contain;
+    margin-right: .5em;
+  }
+  
+  .features-section img {
+    display: none;
+  }
+  
+  .testimonials-section {
+    background: var(--primary-color);
+    color: white;
+  }
+  
+  /* adding css to a list  */
+  .testimonials-section li {
+      /* giving it a background color  */
+    background: #006BD6;
+    text-align: center;
+    padding: 2em 1em;
+    width: 80%;
+    margin: 0 auto 5em auto;
+    border-radius: 1em;
+  }
+  
+  /* css for image adding borders to them */
+  .testimonials-section li img {
+    width: 5em;
+    height: 5em;
+    border: 5px solid #006BD6;
+    border-radius: 50%;
+    margin-top: -4.5em;
+  }
+  
+  /* this is the start of header 2 */
+  h2 {
+    font-size: 2em;
+  }
