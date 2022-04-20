@@ -139,6 +139,7 @@ ul {
     width: 20px;
     height: 20px;
     /* background size of the image  */
+    background-image: url("../images/bullet.svg");
     background-size: contain;
     margin-right: .5em;
   }
@@ -415,3 +416,4 @@ ul {
         left: 4.5em;
         top: 2em;
       }
+    } 
